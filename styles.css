@@ -251,16 +251,8 @@ a { text-decoration: none; color: inherit; }
   height: 110px;
   border-radius: 50%;
   margin: 0 auto 20px;
-  background: linear-gradient(135deg, var(--navy), var(--red));
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--white);
-  font-family: var(--font-display);
-  font-size: 2rem;
-  letter-spacing: 1px;
+  object-fit: cover;
 }
-.trainer-photo::before { content: attr(data-initials); }
 .trainer-card h3 { font-size: 1.5rem; }
 .trainer-role {
   color: var(--red);
