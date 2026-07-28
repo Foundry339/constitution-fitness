@@ -339,6 +339,20 @@ a { text-decoration: none; color: inherit; }
 }
 .info-row p { color: #d7dbe4; }
 .contact-info .btn { align-self: flex-start; margin-top: 10px; }
+.social-links { display: flex; gap: 10px; flex-wrap: wrap; }
+.social-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  border-radius: 4px;
+  border: 2px solid rgba(255,255,255,0.25);
+  color: var(--white);
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: background 0.15s ease, border-color 0.15s ease, transform 0.15s ease;
+}
+.social-btn:hover { background: var(--red); border-color: var(--red); transform: translateY(-2px); }
 .contact-map {
   border-radius: 12px;
   overflow: hidden;
